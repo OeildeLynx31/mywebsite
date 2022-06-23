@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <style>
+        body {
+            background: rgb(217, 255, 209);
+        }
+          
+          [data-tab-info] {
+            display: none;
+        }
+        
+        .active[data-tab-info] {
+            display: block;
+        }
+
+        .tab-content {
+            font-family: sans-serif;
+            font-weight: normal;
+            color: rgb(82, 75, 75);
+            margin-right: 50px;
+            margin-left: 250px;
+            margin-top: 30px;
+            padding: 20px;
+            padding-top: 0px ;
+            background-color:rgb(118, 196, 2);
+            height: 100%;
+            border: 5px solid black;
+            box-shadow: 5px 5px 5px black;
+            float : center;
+        }
+          
+        .tabs {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            display: flex;
+            text-align:center;
+            padding-right: auto;
+            padding-left: auto;
+            background-color: rgb(118, 196, 2);
+            border: none;
+            font-family: Arial;
+        }
+          
+        .tabs span {
+            background: rgb(118, 196, 2);
+            padding: 10px;
+            border: none;
+            width: auto;
+            
+        }
+          
+        .tabs span:hover {
+            background: rgb(109, 181, 2);
+            cursor: pointer;
+            color: white;
+        }
+
+        span.vertical{
+            border-left: 1px solid rgb(109, 181, 2); 
+            height: 45px; 
+            display: inline-block;
+            width:0px;
+            padding: 0px;
+        }
+
+        div.barre{
+            float : left;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: rgb(82, 75, 75);
+            margin-top: 0px;
+            margin-left: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            background-color:rgb(118, 196, 2);
+            height: 100%;
+            border: 5px solid black;
+            box-shadow: 5px 5px 5px black;
+            width: 180px;
+            height: 200px
+}   
+
+        a{
+            font-weight: normal;
+            color: rgb(57, 96, 0)
+}
+
+        iframe.scratch{
+            border: 10px solid #e8edf1;
+               border-radius: 10px
+}
+
+    </style>
+</head>
+  
+<body>
+    <div class="tabs">
+<div style="width: 45px;height: 45px; display: flex; align-items: center; justify-content: center;">
+<img src="https://oeildelynx.top7box.com/data/medias/autres/logo2trensparent.png" style="width: 35px;height: 32px; background-color: #d9ffd1; border-radius: 5px; padding: 2px"></div>
+<span class="vertical"></span>
+        <span data-tab-value="#tab_1">Accueil</span>
+        <span class="vertical"></span>
+        <span data-tab-value="#tab_2"> Scratch </span>
+        <span class="vertical"></span>
+        <span data-tab-value="#tab_3"> Oeil-de-Lynx </span>
+    </div>
+  
+
+<div>
+<div class="barre" >
+Me retrouver:
+
+<ul>
+  <li><a href="https://oeildelynx.top7box.com/wordpress">Site Web</a></li>
+  <li><a href="https://scratch.mit.edu/users/scratch-hv/">Scratch</a></li>
+  <li><a href="https://github.com/OeildeLynx31"> Github </a></li>
+  <li><a href="https://les-royaumes-de-feu.fandom.com/fr/wiki/Utilisateur:Oeuil2Lynx"> Fandom </a></li>
+</ul>
+
+</div>
+    <div class="tab-content">
+        <div class="tabs__tab active" id="tab_1" data-tab-info>
+            
+<h2>Lorem Ipsum</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+<br><br>
+Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+<br><br>
+Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet.
+</p>
+  
+        </div>
+        <div class="tabs__tab" id="tab_2" data-tab-info>
+            <p>Projet scratch :</p>
+            <iframe class="scratch" src="https://scratch.mit.edu/projects/646720286/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  
+        </div>
+        <div class="tabs__tab" id="tab_3" data-tab-info>
+            <p><i>Cette page est vide pour l'instant.</i></p>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+        const tabs = document.querySelectorAll('[data-tab-value]')
+        const tabInfos = document.querySelectorAll('[data-tab-info]')
+  
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document
+                    .querySelector(tab.dataset.tabValue);
+  
+                tabInfos.forEach(tabInfo => {
+                    tabInfo.classList.remove('active')
+                })
+                target.classList.add('active');
+            })
+        })
+    </script>
+</body>
+  
+</html>
